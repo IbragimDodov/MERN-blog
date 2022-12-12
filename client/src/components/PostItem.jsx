@@ -26,7 +26,7 @@ export const PostItem = ({post}) => {
           </div>
         </div>
         <div className="text-white text-xl">{post.title}</div>
-        <p className="text-white opacity-60 text-xs pt-4">{post.text}</p>
+        <p className="text-white opacity-60 text-xs pt-4 line-clamp-3">{post.text}</p>
 
         <div className="flex gap-3 item-center mt-2">
           <button className='flex items-center justify-center gap-2 text-xs text-white opacity-50'>
